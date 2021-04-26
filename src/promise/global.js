@@ -38,7 +38,7 @@ let axios = {
 }
 let findUserInDB = (id) => {
     const users = [
-        {id:1, name: "Dima", friendly: 4},
+        {id:1, name: "Dima", friend: 4},
         {id:2, name: "Alena", friendly: null},
         {id:3, name: "Denis", friendly: 2},
     ]
