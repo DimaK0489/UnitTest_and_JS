@@ -5,7 +5,7 @@ let axios = {
                 let responseData = {
                     text: `${url} Loves you`
                 };
-                if (url.indexOf("it-incubator") > 0) {
+                if (url.indexOf("IT-Incubator") > 0) {
                     responseData = {
                         requestedCount: data.count,
                         message: "we will prepare students for you"
@@ -38,9 +38,9 @@ let axios = {
 }
 let findUserInDB = (id) => {
     const users = [
-        {id:1, name: "Dima", friend: 4},
-        {id:2, name: "Alena", friendly: null},
-        {id:3, name: "Denis", friendly: 2},
+        {id:1, name: "Dima", friend: 3},
+        {id:2, name: "Alena", friend: null},
+        {id:3, name: "Denis", friend: 2},
     ]
     return new Promise( (res, rej) => {
         setTimeout( () => {
